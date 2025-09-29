@@ -2,8 +2,8 @@
 
 int main(int argc, const char *argv[])
 {
-	signed int s;
-	printf("Entrez le nombre de secondes : ");
+	signed int s = 0;
+	printf("Number of seconds:");
 	scanf("%d", &s);
 	if (s < 0 || s >= 86400)
 	{
